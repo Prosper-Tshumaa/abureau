@@ -23,7 +23,7 @@
 <!--Body-->
 <body>
     <div
-      class="text-black container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12"
+      class="text-black container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12 max-w-full"
     >
       <div class="h-32 md:h-40"></div>
 
@@ -34,7 +34,7 @@
       </p>
       <div class="h-10"></div>
       <p class="max-w-2xl font-serif text-xl text-black md:text-2xl">
-        Imagine being able to spent less time writing assignments...
+        Imagine being able to spend less time writing assignments...
       </p>
 
       <div class="h-32 md:h-40"></div>
@@ -49,45 +49,49 @@
           <h2 class="text-4xl font-bold">Made for students and research</h2>
           <div class="h-6"></div>
           <p class="font-serif text-xl text-black md:pr-10">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            autem, a recusandae vero praesentium qui impedit doloremque
-            molestias necessitatibus.
+            Did not do well in some modules last semester?
+            Retakes have added more workload?
+            <br><br/>
+            Get in touch with us for quality assisstance.....
           </p>
           <div class="h-8"></div>
           <div class="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800">
             <div>
-              <p class="font-semibold text-black">Made with love</p>
+              <p class="font-semibold text-black">Quick facts</p>
               <div class="h-4"></div>
               <p class="font-serif text-black">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Delectus labor.
+                The higher education department has revealed that just 6% of the South African population have University degrees, A further 6% have Diplomas and 3.4% hold TVET cetificates.in real numbers, just over 1,6 million people out of 10,5 million Active Population, have a certification above a Matric certificate and predictably so fewer Black Africans have  these certificates compared to other race groups.
               </p>
             </div>
             <div>
-              <p class="font-semibold text-black">It's easy to build</p>
+              <p class="font-semibold text-black"></p>
               <div class="h-4"></div>
               <p class="font-serif text-black">
-                Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-                amet consectetur.
+                Only 4.1% black adults had a degree as their highest level of education attainment in 2020, compared to 23.4% of white adults with a degree in 2020.South Africa's low number of degrees appeared to be mostly related to the dropout rate and students taking too long to complete their studies.
               </p>
             </div>
           </div>
         </div>
         <div>
-          <div
-            class="-mr-24 rounded-lg md:rounded-l-full bg-yellow-300 h-96"
-          ></div>
+            <div class="h-48 flex flex-wrap content-center">
+                    <div>
+                        <img class="inline-block mt-24 md:mt-0 p-8 md:p-0"  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"></div>
+                        <div>
+                            <img class="inline-block mt-28 hidden lg:block" src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       </div>
 
       <div class="h-32 md:h-40"></div>
 
       <p class="font-serif text-4xl">
-        <span class="text-black">If we work all together</span>
+        <span class="text-black">"Assessment Bureau</span>
 
         <span class="text-black"
-          >consectetur adipisicing elit. Consectetur atque molestiae omnis
-          excepturi enim!</span
+          >is here to change the status Quo!"</span
         >
       </p>
 
@@ -176,9 +180,10 @@
           </div>
         </div>
         <div>
-          <div
-            class="-mr-24 rounded-lg md:rounded-l-full bg-yellow-300 h-96"
-          ></div>
+            <div class="h-48 flex flex-wrap content-center">
+                <div>
+                    <img class="inline-block mt-24 md:mt-0 p-8 md:p-0"  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"></div>
+                    </div>
         </div>
       </div>
       </div>

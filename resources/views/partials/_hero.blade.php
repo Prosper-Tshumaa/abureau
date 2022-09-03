@@ -1,14 +1,14 @@
 <!--hero component -->
 <section>
-	<div class="bg-white text-black py-20">
+	<div class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-white py-20">
 		<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
 			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-				<h1 class="text-3xl md:text-5xl p-2 text-yellow-300 tracking-loose">EduFest</h1>
+				<h1 class="text-3xl md:text-5xl p-2 text-white tracking-loose">EduFest</h1>
 				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Space : The Timeless Infinity
 				</h2>
-				<p class="text-sm md:text-base text-gray-900 mb-4">Explore your favourite subjects.</p>
+				<p class="text-sm md:text-base text-gray-50 mb-4">Explore your favourite subjects.</p>
 				<a href="/pages/subjects"
-					class="bg-transparent hover:bg-yellow-300 text-gray-900 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
+					class="bg-transparent hover:bg-yellow-300 text-gray-50 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
 					Explore Now</a>
 			</div>
 			<div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">

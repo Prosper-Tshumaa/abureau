@@ -98,7 +98,7 @@
 
               <div>
                 <div class="text-indigo-500 md:text-lg font-bold">COMING SOON</div>
-                <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">CTO</p>
+                <p class="text-gray-500 text-sm md:text-base mb-3 md:mb-4">Administrator</p>
 
                 <!-- social - start -->
                 <div class="flex">
