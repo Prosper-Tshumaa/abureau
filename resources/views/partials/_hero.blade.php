@@ -1,26 +1,20 @@
 <!--hero component -->
 <section>
-	<div class="bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 text-white py-20">
-		<div class="container mx-auto flex flex-col md:flex-row items-center my-12 md:my-24">
-			<div class="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
-				<h1 class="text-3xl md:text-5xl p-2 text-white tracking-loose">EduFest</h1>
-				<h2 class="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">Space : The Timeless Infinity
-				</h2>
-				<p class="text-sm md:text-base text-gray-50 mb-4">Explore your favourite subjects.</p>
-				<a href="/pages/subjects"
-					class="bg-transparent hover:bg-yellow-300 text-gray-50 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-					Explore Now</a>
+	<div class="dark:bg-gray-800">
+		<div class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+			<h1 class="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
+        Providing the best research
+        and assignment solutions</h1>
+			<p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-white"></p>
+			<div class="flex flex-wrap justify-center">
+        <a href="/pages/subjects">
+				<button type="button" class="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50">Get started</button>
+        </a>
+        <a href="/pages/about">
+				<button type="button" class="px-8 py-3 m-2 text-lg border rounded dark:border-gray-50 dark:text-gray-50">Learn more</button>
+        </a>
 			</div>
-			<div class="p-8 mt-12 mb-6 md:mb-0 md:mt-0 ml-0 md:ml-12 lg:w-2/3  justify-center">
-				<div class="h-48 flex flex-wrap content-center">
-					<div>
-						<img class="inline-block mt-28 hidden xl:block" src="https://user-images.githubusercontent.com/54521023/116969935-c13d5b00-acd4-11eb-82b1-5ad2ff10fb76.png"></div>
-						<div>
-							<img class="inline-block mt-24 md:mt-0 p-8 md:p-0"  src="https://user-images.githubusercontent.com/54521023/116969931-bedb0100-acd4-11eb-99a9-ff5e0ee9f31f.png"></div>
-							<div>
-								<img class="inline-block mt-28 hidden lg:block" src="https://user-images.githubusercontent.com/54521023/116969939-c1d5f180-acd4-11eb-8ad4-9ab9143bdb50.png"></div>
-							</div>
-						</div>
-					</div>
-				</div>
+		</div>
+	</div>
+	<img src="/images/px.jpg" alt="" class="w-4/6 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500">
 </section>

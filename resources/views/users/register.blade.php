@@ -18,49 +18,68 @@
 <body>
     @include('partials._navbar')
 {{--Register--}}
-<section class="bg-white">
-    <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-        <a href="/pages/index" class="flex items-center mb-6 text-2xl font-semibold text-black">
-            <img class="w-8 h-8 mr-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo">
-            AssessmentBureau
-        </a>
-        <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-50 dark:border-gray-900">
-            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-                <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-black">
-                    Create and account
-                </h1>
-                <form class="space-y-4 md:space-y-6" action="#">
-                    <div>
-                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Your email</label>
-                        <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@domain.com" required="">
-                    </div>
-                    <div>
-                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Password</label>
-                        <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
-                    </div>
-                    <div>
-                        <label for="confirm-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Confirm password</label>
-                        <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
-                    </div>
-                    <div class="flex items-start">
-                        <div class="flex items-center h-5">
-                          <input id="terms" aria-describedby="terms" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
-                        </div>
-                        <div class="ml-3 text-sm">
-                          <label for="terms" class="font-light text-gray-500 dark:text-gray-900">I accept the <a class="font-medium text-primary-600 hover:underline dark:text-primary-500" href="/pages/terms">Terms and Conditions</a></label>
-                        </div>
-                    </div>
-                    <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-                        Create account
-                      </button>
-                    <p class="text-sm font-light text-gray-500 dark:text-gray-900">
-                        Already have an account? <a href="/users/login" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Login here</a>
-                    </p>
-                </form>
-            </div>
+<!-- component -->
+<div class="flex items-center min-h-screen bg-gray-50">
+    <div class="flex-1 h-full max-w-4xl mx-auto bg-white rounded-lg shadow-xl">
+      <div class="flex flex-col md:flex-row">
+        <div class="h-32 md:h-auto md:w-1/2">
+          <img class="object-cover w-full h-full" src="https://source.unsplash.com/user/erondu/1600x900"
+            alt="img" />
         </div>
+        <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
+          <div class="w-full">
+            <div class="flex justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-20 text-blue-600" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                <path
+                  d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+              </svg>
+            </div>
+            <h1 class="mb-4 text-2xl font-bold text-center text-gray-700">
+              Sign up
+            </h1>
+            <div>
+              <label class="block text-sm">
+                Name
+              </label>
+              <input type="text"
+                class="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
+                placeholder="Name" />
+            </div>
+            <div class="mt-4">
+              <label class="block text-sm">
+                Email
+              </label>
+              <input type="email"
+                class="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
+                placeholder="Email Address" />
+            </div>
+            <div>
+              <label class="block mt-4 text-sm">
+                Password
+              </label>
+              <input
+                class="w-full px-4 py-2 text-sm border rounded-md focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-600"
+                placeholder="Password" type="password" />
+            </div>
+            <button
+              class="block w-full px-4 py-2 mt-4 text-sm font-medium leading-5 text-center text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-blue"
+              href="#">
+              Sign up
+            </button>
+
+            <div class="mt-4 text-center">
+              <p class="text-sm">Have an account? <a href="/pages/login"
+                  class="text-blue-600 hover:underline"> Sign in.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
     @include('partials._footer')
 </body>
 </html>

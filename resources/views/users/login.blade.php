@@ -47,7 +47,7 @@
                 placeholder="Email address"
               />
             </div>
-  
+
             <!-- Password input -->
             <div class="mb-6">
               <input
@@ -56,7 +56,7 @@
                 placeholder="Password"
               />
             </div>
-  
+
             <div class="flex justify-between items-center mb-6">
               <div class="form-group form-check">
                 <input
@@ -75,7 +75,7 @@
                 >Forgot password?</a
               >
             </div>
-  
+
             <!-- Submit button -->
             <button
               type="submit"

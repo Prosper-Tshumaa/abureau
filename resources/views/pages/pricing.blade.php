@@ -29,7 +29,7 @@
                 <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
                 <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$29</span>
+                    <span class="mr-2 text-5xl font-extrabold">COMING SOON</span>
                     <span class="text-gray-500 dark:text-gray-400">/month</span>
                 </div>
                 <!-- List -->
@@ -67,7 +67,7 @@
                 <h3 class="mb-4 text-2xl font-semibold">Company</h3>
                 <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$99</span>
+                    <span class="mr-2 text-5xl font-extrabold">COMING SOON</span>
                     <span class="text-gray-500 dark:text-gray-400" dark:text-gray-400>/month</span>
                 </div>
                 <!-- List -->
@@ -105,7 +105,7 @@
                 <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
                 <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
                 <div class="flex justify-center items-baseline my-8">
-                    <span class="mr-2 text-5xl font-extrabold">$499</span>
+                    <span class="mr-2 text-5xl font-extrabold">COMING SOON</span>
                     <span class="text-gray-500 dark:text-gray-400">/month</span>
                 </div>
                 <!-- List -->

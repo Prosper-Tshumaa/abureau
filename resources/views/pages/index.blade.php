@@ -142,39 +142,37 @@
           <p
             class="self-start inline font-sans text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-teal-400 to-teal-600"
           >
-            We are humans
+          See how it works
           </p>
-          <h2 class="text-4xl font-bold">We could work together</h2>
+          <h2 class="text-4xl font-bold">Homework Help Catered for you</h2>
           <div class="h-6"></div>
           <p class="font-serif text-xl text-black md:pr-10">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
-            autem, a recusandae vero praesentium qui impedit doloremque
-            molestias.
+            Get connected with a verified expert on the subject 24/7 and recieve feedback and answers within an hour
           </p>
           <div class="h-8"></div>
           <div class="grid gap-6 pt-8 border-t border-gray-800 lg:grid-cols-3">
             <div>
-              <p class="font-semibold text-black">Made with love</p>
+              <p class="font-semibold text-black"> 1.Ask questions</p>
               <div class="h-4"></div>
               <p class="font-serif text-black">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Delectus labor.
+                Type a question into the question box.Our team is on standby 24/7
               </p>
             </div>
             <div>
-              <p class="font-semibold text-black">It's easy to build</p>
+              <p class="font-semibold text-black">2.Connect with a tutor</p>
               <div class="h-4"></div>
               <p class="font-serif text-black">
-                Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-                amet consectetur.
+                Based on domain knowledge and past experience ,one tutor in your field of
+                study will help you with your question.They will break it down for you,on
+                how it has to be attempted.
               </p>
             </div>
             <div>
-              <p class="font-semibold text-black">It's easy to build</p>
+              <p class="font-semibold text-black">3. Upload your Work</p>
               <div class="h-4"></div>
               <p class="font-serif text-black">
-                Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-                amet consectetur.
+                Work With your tutor until you are satisfied with your personalised answers and you have understood
+                the key outcomes of your work.
               </p>
             </div>
           </div>

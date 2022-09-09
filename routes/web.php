@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\BotManController;
 
 /*
 |--------------------------------------------------------------------------
@@ -95,7 +96,6 @@ Route::get('/users/login', function () {
 Route::get('/users/register', function () {
     return view('users.register');
 });
-
 
 
 
