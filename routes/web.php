@@ -36,7 +36,6 @@ use App\Http\Controllers\BotManController;
 //Admin dasboard
 
 
-
 //Home page
 Route::get('/', function () {
     return view('index');
