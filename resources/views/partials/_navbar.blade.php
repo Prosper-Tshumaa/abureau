@@ -16,7 +16,7 @@
 							<a href="/index" class="py-4 px-2 text-indigo-500 border-b-4 border-indigo-500 font-semibold ">Home</a>
 							<a href="/pages/services" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Services</a>
 							<a href="/pages/about" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">About</a>
-                            <a href="/pages/subjects" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">About</a>
+                            <a href="/pages/subjects" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Subjects</a>
 							<a href="/pages/contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Contact</a>
                             <a href="/pages/pricing" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Pricing</a>
                             <a href="/pages/faq" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">FAQ</a>
