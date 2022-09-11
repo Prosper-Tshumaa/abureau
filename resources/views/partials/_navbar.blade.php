@@ -13,13 +13,14 @@
 						</div>
 						<!-- Primary Navbar items -->
 						<div class="hidden md:flex items-center space-x-1">
-							<a href="/index" class="py-4 px-2 text-indigo-500 border-b-4 border-green-500 font-semibold ">Home</a>
-							<a href="/pages/services" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Services</a>
-							<a href="/pages/about" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">About</a>
-							<a href="/pages/contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Contact</a>
-                            <a href="/pages/pricing" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Pricing</a>
-                            <a href="/pages/faq" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">FAQ</a>
-                            <a href="/pages/team" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300">Team</a>
+							<a href="/index" class="py-4 px-2 text-indigo-500 border-b-4 border-indigo-500 font-semibold ">Home</a>
+							<a href="/pages/services" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Services</a>
+							<a href="/pages/about" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">About</a>
+                            <a href="/pages/subjects" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">About</a>
+							<a href="/pages/contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Contact</a>
+                            <a href="/pages/pricing" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Pricing</a>
+                            <a href="/pages/faq" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">FAQ</a>
+                            <a href="/pages/team" class="py-4 px-2 text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Team</a>
 						</div>
 					</div>
 					<!-- Secondary Navbar items -->
@@ -61,6 +62,7 @@
 					<li class="active"><a href="/index" class="block text-sm px-2 py-4 text-white bg-indigo-500 font-semibold">Home</a></li>
 					<li><a href="/pages/services" class="block text-sm px-2 py-4 text-white hover:bg-indigo-500 transition duration-300">Services</a></li>
 					<li><a href="/pages/about" class="block text-sm px-2 py-4 text-white hover:bg-indigo-500 transition duration-300">About</a></li>
+                    <li><a href="/pages/subjects" class="block text-sm px-2 py-4 text-white hover:bg-indigo-500 transition duration-300">Subjects</a></li>
 					<li><a href="/pages/contact" class="block text-sm px-2 py-4 text-white hover:bg-indigo-500 transition duration-300">Contact</a></li>
                     <li><a href="/pages/pricing" class="block text-sm px-2 py-4 text-white hover:bg-indigo-500 transition duration-300">Pricng</a></li>
                     <li><a href="/pages/faq" class="block text-sm px-2 py-4 text-white hover:bg-indigo-500 transition duration-300">FAQ</a></li>
