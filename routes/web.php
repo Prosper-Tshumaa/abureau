@@ -38,8 +38,8 @@ use App\Http\Controllers\BotManController;
 
 
 //Home page
-Route::get('/pages/index', function () {
-    return view('pages.index');
+Route::get('/', function () {
+    return view('index');
 });
 
 //About page
@@ -97,6 +97,12 @@ Route::get('/users/register', function () {
     return view('users.register');
 });
 
+//Coaching page
+Route::get('/pages/coaching', function () { 
+    return view('pages.coaching');
+});
+
 
 
 require __DIR__.'/auth.php';
+

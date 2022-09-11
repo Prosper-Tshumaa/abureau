@@ -3,7 +3,7 @@
     <div class="px-4 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex-1 md:flex md:items-center md:gap-12">
-          <a class="block text-teal-600" href="/pages/index">
+          <a class="block text-teal-600" href="/index">
             <span class="sr-only">Home</span>
             <svg
               class="h-8"
