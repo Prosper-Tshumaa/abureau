@@ -11,7 +11,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link href="{{ asset('css/app.css')}}" rel="stylesheet">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -105,7 +105,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
        <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -120,7 +120,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
              <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -135,8 +135,8 @@
         </div>
       </a>
       <!-- article - end -->
-      
-      
+
+
       <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -151,7 +151,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
             <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -166,7 +166,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
                   <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -181,7 +181,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
                         <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -196,7 +196,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
       <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -211,7 +211,7 @@
         </div>
       </a>
       <!-- article - end -->
-        
+
         <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -226,7 +226,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
          <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -241,7 +241,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
        <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />
@@ -256,7 +256,7 @@
         </div>
       </a>
       <!-- article - end -->
-      
+
       <!-- article - start -->
       <a href="#" class="group h-48 md:h-64 xl:h-96 flex flex-col bg-gray-100 rounded-lg shadow-lg overflow-hidden relative">
         <img src="/images/logo.jpg" loading="lazy" alt="Photo by Magicle" class="w-full h-full object-cover object-center absolute inset-0 group-hover:scale-110 transition duration-200" />

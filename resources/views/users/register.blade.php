@@ -11,7 +11,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link href="{{ asset('css/app.css')}}" rel="stylesheet">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         <script src="https://cdn.tailwindcss.com"></script>
     <title>Register your Account</title>
 </head>

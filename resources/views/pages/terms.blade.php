@@ -11,7 +11,7 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link href="{{ asset('css/app.css')}}" rel="stylesheet">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
         <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -42,11 +42,11 @@
                 <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750" loading="lazy" alt="Photo by Martin Sanchez" class="w-full h-full object-cover object-center" />
               </div>
             </div>
-      
+
             <div class="md:pt-8">
 
               <h1 class="text-gray-800 text-2xl sm:text-3xl font-bold text-center md:text-left mb-4 md:mb-6">Terms and Conditions</h1>
-      
+
               <p class="text-gray-500 sm:text-lg mb-6 md:mb-8">
                These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Assessment Bureau ("Company," “we," “us," or “our”), concerning your access to and use of the website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”). You agree that by accessing the Site, you have read, understood, and agreed to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST DISCONTINUE USE IMMEDIATELY.
 
